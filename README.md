@@ -1,2 +1,2 @@
 # JustChat.priyonujdey
-Simple chat app using React js and firebase
+Simple chat application using React js and firebase
