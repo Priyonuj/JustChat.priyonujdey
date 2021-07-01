@@ -1,0 +1,60 @@
+{
+  "name": "justchat",
+  "homepage": "https://justchat.priyonujdey.in/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "compressorjs": "^1.0.7",
+    "croppie": "^2.6.5",
+    "emoji-mart": "^3.0.1",
+    "emoji-picker-react": "^3.4.5",
+    "firebase": "^8.6.1",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-croppie": "^1.0.0",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.3",
+    "react-easy-crop": "^3.4.0",
+    "react-firebase-hooks": "^3.0.4",
+    "react-google-login": "^5.2.2",
+    "react-modal": "^3.13.1",
+    "react-scripts": "4.0.3",
+    "react-tooltip": "^4.2.19",
+    "react-use-googlelogin": "^0.12.5",
+    "reactjs-popup": "^2.0.4",
+    "reactour": "^1.18.4",
+    "styled-components": "^4.0.0",
+    "use-sound": "^3.0.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

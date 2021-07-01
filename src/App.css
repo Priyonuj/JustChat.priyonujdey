@@ -1,0 +1,102 @@
+body {
+    background: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+   overflow: hidden;
+}
+.bgImg img
+{
+    position: absolute;
+    z-index:-12;
+    top: 0;
+    left: 0;
+    opacity:0.7;
+    width: 100%;
+    height: 170%;
+    
+}
+
+.beta
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    color: black;
+    font-weight: bolder;
+}
+.button{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+font-weight: bolder;
+}
+
+.main-div {
+    width: 25%;
+    margin: 0px auto;
+    margin-top: 150px;
+    padding: 25px 25px 50px 25px;
+    background-color: black;
+    border-radius: 25px;
+
+}
+
+.main-div h3 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.main-div input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.main-div input:focus {
+    border: 1px solid #777;
+}
+
+.main-div button,
+.loggedin-div button {
+    background: #5d8ffc;
+    color: #fff;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.main-div button:hover,
+.loggedin-div button:hover {
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+    cursor: pointer;
+}
+.main-div p label{
+    text-align: center;
+    color:white;
+}
+@media (max-width: 600px) {
+    .main-div {
+        width: 95%   
+    }
+}
